@@ -1,0 +1,101 @@
+.image_row_large {
+    background: linear-gradient(90deg, rgba(114, 198, 239, 0.15) 0%, rgba(0, 78, 143, 0.15) 100%);
+    border-radius: 15px;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+    margin-bottom: 24px;
+}
+
+.image_row_small {
+    background: linear-gradient(90deg, rgba(114, 198, 239, 0.15) 0%, rgba(0, 78, 143, 0.15) 100%);
+    border-radius: 15px;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+    margin-bottom: 24px;
+}
+
+.image_container {
+    padding: 20px;
+}
+
+.image_container .image_large {
+    border-radius: 15px;
+    background-size: cover;
+    background-position: center;
+    min-height: 300px;
+    cursor: pointer;
+}
+
+.image_container .image_small {
+    border-radius: 15px;
+    background-size: cover;
+    background-position: center;
+    min-height: 250px;
+    cursor: pointer;
+}
+
+@media(max-width: 992px) {
+    .image_container .image_small {
+        min-height: 300px!important;
+    }
+}
+
+.productinfo_container {
+    background: linear-gradient(90deg, #16222A 0%, #293650 100%);
+    border: 1px solid #4B6287;
+    box-sizing: border-box;
+    border-radius: 15px;
+}
+
+.productinfo {
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 100%;
+    min-height: 220px;
+}
+
+.productinfo .product_name {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 28px;
+    line-height: 28px;
+
+    color: #84D3FF;
+    width: 100%;
+    margin-bottom: 0 !important;
+}
+
+.productinfo .product_category {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 200;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+    width: 100%;
+    margin-bottom: 0 !important;
+}
+
+hr.product_divisor {
+    background: linear-gradient(90deg, rgba(114, 198, 239, 0.75) 0%, rgba(0, 78, 143, 0.75) 100%);
+    border-radius: 24px;
+    opacity: 1;
+    max-width: 75%;
+    width: 100%;
+    height: 6px;
+    margin: 25px 0;
+}
+
+.product_description {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    color: #ABABAB;
+    text-align: left;
+    margin-bottom: 0 !important;
+}

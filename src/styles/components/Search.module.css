@@ -1,0 +1,114 @@
+.search_container {
+    flex-grow: 1;
+    margin-left: 50px;
+    margin-right: 35px;
+    position: relative;
+    user-select: none;
+}
+
+@media(max-width: 992px) {
+    .search_container {
+        margin-left: 30px;
+        margin-right: 15px;
+    }
+}
+
+@media(max-width: 576px) {
+    .search_container {
+        margin-left: 30px;
+        margin-right: 15%!important;
+    }
+}
+
+@media(max-width: 428px) {
+    .search_container {
+        margin-left: 0px!important;
+        margin-right: 0px!important;
+        width: 100%;
+        margin-bottom: 10px;
+    }
+}
+
+.search_container input {
+    background: rgba(196, 196, 196, 0.1);
+    backdrop-filter: blur(4px);
+    border: 0;
+    padding: 7px 20px;
+    padding-right: 30px;
+    border-radius: 15px;
+    outline: none;
+    color: #E5E5E5;
+    width: 100%;
+    transition: border .2s, border-radius .2s;
+    border: 3px solid transparent;
+}
+
+.search_container input::placeholder {
+    color: #E5E5E5;
+}
+
+.search_container input:focus {
+    border-color: rgba(229, 229, 229, 0.1);
+}
+
+.search_container svg {
+    position: absolute;
+    top: 50%;
+    right: 15px;
+    transform: translateY(-50%);
+    color: white !important;
+}
+
+.search_container .results .result.loading {
+    background-color: white;
+    border-left: 3px solid #ffc107;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.search_container .results {
+    margin-bottom: 0!important;
+    padding-left: 0!important;
+    position: absolute;
+    top: 100%;
+    list-style: none;
+    z-index: 999;
+    width: 100%;
+    margin-top: 10px;   
+    max-height: 290px;
+    overflow-y: auto;
+}
+
+.search_container .results .result {
+    background-color: white;
+    color: #28354d;
+    padding: 10px 20px;
+    font-family: Roboto;
+    font-weight: 500;
+    border-left: 3px solid #3f7ae7;
+    cursor: pointer;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.search_container .results .result:hover {
+    background-color: #c8e6f5;
+}
+
+.search_container .results .result:active {
+    background-color: #9cd8f6;
+}
+
+.search_container .results .result.error {
+    border-left: 3px solid #e73f3f;
+    color: #535353;
+}
+
+.search_container .results .result.error:hover {
+    background-color: #ebebeb;
+}
+
+.search_container .results .result.error:active {
+    background-color: white;
+}

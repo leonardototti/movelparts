@@ -1,0 +1,107 @@
+.product_container {
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+.product_title {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 48px;
+    line-height: 56px;
+    text-shadow: 0px 4px 4px rgb(0 0 0 / 25%);
+}
+
+.product_divisor {
+    background: linear-gradient(90deg, rgba(28, 40, 54, 0.7) -1.37%, rgba(40, 53, 78, 0.455) 101.37%);
+    border-radius: 24px;
+    opacity: 1;
+    max-width: 230px;
+    width: 100%;
+    height: 6px !important;
+}
+
+.image_product .image {
+    max-width: 500px;
+    width: 100%;
+    border-radius: 5px;
+}
+
+button.btn_product {
+    background: linear-gradient(90deg, #1C2836 -1.37%, rgba(40, 53, 78, 0.65) 101.37%);
+    border: 1px solid rgba(229, 229, 229, 0.2);
+    box-sizing: border-box;
+    border-radius: 24px;
+    padding: 8px 50px;
+    color: white;
+    transition: transform 0.2s;
+    margin-top: 35px;
+}
+
+button.btn_product:hover {
+    transform: scale(0.99);
+}
+
+button.btn_product:active {
+    transform: scale(0.97);
+}
+
+.additional_info {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    width: 100%;
+}
+
+.menu_product {
+    background: linear-gradient(90deg, #16222A 0%, #293650 100%);
+    border-radius: 15px;
+    width: 100%;
+    padding: 24px;
+}
+
+.menu_product h2 {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 21px;
+    color: #fff;
+    padding: 20px 0px;
+    width: 100%;
+    margin: 0 12px;
+}
+
+.menu_product .image {
+    border-radius: 15px;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    aspect-ratio: 1/1;
+    min-height: 100px;
+    cursor: pointer;
+}
+
+.menu_product .relatedproduct_title {
+    font-family: Roboto;
+    color: whitesmoke;
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+@media(max-width: 992px) {
+    .image_product {
+        margin-bottom: 24px;
+    }
+}
+
+@media(max-width: 576px){
+    .additional_info {
+        margin-top: 30px;
+    }
+
+    .menu_product{
+        margin-top: 30px;
+    }
+}

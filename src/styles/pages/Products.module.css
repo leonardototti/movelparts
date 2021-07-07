@@ -1,0 +1,107 @@
+@media(min-width: 1200px) {
+    .products_container {
+        max-width: 1200px;
+    }
+}
+
+.products_section {
+    padding-bottom: 70px;
+    padding-top: 70px;
+}
+
+.title_product {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 48px;
+    line-height: 56px;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    text-align: center;
+}
+
+.divisor_product {
+    background: linear-gradient(90deg, rgba(28, 40, 54, 0.7) -1.37%, rgba(40, 53, 78, 0.455) 101.37%);
+    border-radius: 24px;
+    max-width: 230px;
+    width: 100%;
+    height: 6px !important;
+    opacity: 1;
+    margin: 0 auto;
+}
+
+.categories_container {
+    background: linear-gradient(90deg, #16222A 0%, #293650 100%);
+    border-radius: 15px;
+    width: 100%;
+    padding: 30px 20px;
+}
+
+.categories_title {
+    color: #d6d4d4;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 22px;
+    text-align: center;
+    font-family: PT Sans;
+    margin-top: 25px;
+    margin-bottom: 15px!important;
+}
+
+.categories_list {
+    margin-bottom: 0 !important;
+    padding-left: 0 !important;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    min-height: 500px;
+}
+
+.category_item {
+    color: #fff;
+    background: linear-gradient(90deg, rgba(63, 61, 86, 0.5) -1.37%, rgba(48, 106, 139, 0.5) 101.37%);
+    border: 1px solid rgba(75, 98, 135, 0.5);
+    box-sizing: border-box;
+    box-shadow: inset 0px -4px 4px rgba(0, 0, 0, 0.25);
+    backdrop-filter: blur(4px);
+    border-radius: 15px;
+    padding: 12px 20px;
+    text-align: center;
+    width: 80%;
+    transition: transform .2s;
+    user-select: none;
+    cursor: pointer;
+}
+
+.category_item:hover {
+    filter: saturate(0.5);
+}
+
+.category_item:active {
+    transform: scale(0.98);
+}
+
+.category_item.active {
+    background: white!important;
+    color: #253248;
+    font-weight: bold;
+}
+
+.category_item.active:hover {
+    filter: opacity(0.8);
+}
+
+.category_item:not(:last-child){
+    margin-bottom: 20px;
+}
+
+.products_row {
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+}
+
+@media(max-width: 768px) {
+    .products_col {
+        margin-top: 24px;
+    }
+}

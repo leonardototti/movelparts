@@ -1,0 +1,146 @@
+/* A empresa */
+.company_section {
+  margin-top: 80px;
+  margin-bottom: 80px;
+}
+
+.title {
+  font-family: Roboto;
+  font-weight: 900;
+  font-size: 48px;
+}
+
+.subtitle {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 19px;
+  color: #232F43;
+  margin-bottom: 0 !important;
+}
+
+hr.divisor {
+  height: 6px;
+  width: 100%;
+  max-width: 200px;
+  background: linear-gradient(90deg, rgba(28, 40, 54, 0.7) -1.37%, rgba(40, 53, 78, 0.455) 101.37%);
+  border-radius: 24px;
+  opacity: 1;
+}
+
+.company_p_container p {
+  font-family: PT Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 23px;
+  text-align: justify;
+
+  color: #3C3C3C;
+}
+
+.company_p_container p:first-child {
+  margin-top: 30px;
+}
+
+.company_p_container p:last-child {
+  margin-bottom: 30px!important;
+}
+
+button.button_company {
+  background: linear-gradient(90deg, #1C2836 -1.37%, rgba(40, 53, 78, 0.65) 101.37%);
+  border: 1px solid rgba(229, 229, 229, 0.2);
+  box-sizing: border-box;
+  border-radius: 24px;
+  padding: 8px 50px;
+  color: white;
+  transition: transform 0.2s;
+}
+
+button.button_company:hover{
+  transform: scale(0.99);
+}
+
+button.button_company:active {
+  transform: scale(0.97);
+}
+
+
+@media(max-width: 768px) {
+  .company_image_container {
+    margin-top: 50px;
+  }
+}
+
+/* Produtos */
+
+section.section_produtos {
+  background: linear-gradient(90deg, #16222A 0%, #293650 100%);
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.company_image {
+  width: 100%;
+  max-width: 450px;
+}
+
+div.produtos_content {
+  justify-content: center;
+  text-align: center;
+
+}
+
+p.subtitle_produtos {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 19px;
+  color: #E5E5E5;
+  margin-bottom: 5px;
+}
+
+h2.title {
+  color: white;
+}
+
+
+hr.divisor_produtos {
+  border-radius: 24px;
+  opacity: 1;
+  height: 6px;
+  width: 100%;
+  max-width: 200px;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(90deg, rgba(204, 204, 204, 0.7) -1.37%, rgba(132, 211, 255, 0.7) 101.37%);
+  margin: 0 auto;
+  margin-top: 15px;
+}
+
+@media(min-width: 1200px) {
+  .products_container {
+    max-width: 1400px;
+  }
+}
+
+.products_row {
+  margin-top: 70px;
+}
+
+.btn_produtos{
+  background: linear-gradient(90deg, rgba(198, 208, 219, 0.7) -1.37%, rgba(132, 211, 255, 0.455) 71.4%);
+  border: 1px solid rgba(229, 229, 229, 0.2);
+  box-sizing: border-box;
+  border-radius: 24px;
+  color: white;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  padding: 12px 50px;
+  margin-top: 70px;
+}

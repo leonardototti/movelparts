@@ -1,0 +1,106 @@
+.repre_container {
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+.title_repre {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 56px;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.subtitle_repre {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    color: #ABABAB;
+}
+
+.divisor_repre {
+    background: linear-gradient(90deg, rgba(28, 40, 54, 0.7) -1.37%, rgba(40, 53, 78, 0.455) 101.37%);
+    border-radius: 24px;
+    max-width: 220px;
+    width: 100%;
+    height: 5px !important;
+    opacity: 1;
+    margin: 25px 0;
+}
+
+.card_repre {
+    margin-top: 50px;
+}
+
+.card_container {
+    background: linear-gradient(360deg, #37496C 0%, #69A5C7 100%);
+    border: 2px solid #306A8B;
+    box-sizing: border-box;
+    border-radius: 10px;
+    padding: 30px 35px;
+    margin-bottom: 34px;
+    margin-left: 10px;
+    margin-right: 10px;
+    transition: transform 0.3s;
+}
+
+@media(max-width: 576px) {
+    .card_container {
+        margin-left: 0px;
+        margin-right: 0px;
+        padding: 25px 20px;
+    }
+}
+
+.card_container:hover {
+    transform: scale(1.08);
+}
+
+.title_card {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    color: #72C6EF;
+}
+
+.subtitle_card {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: #FFFFFF;
+}
+
+.estado {
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    background: linear-gradient(90deg, rgba(28, 40, 54, 0.7) -1.37%, rgba(40, 53, 78, 0.455) 101.37%);
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.estado span{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 56px;
+    user-select: none;
+    color: #FFFFFF;
+}
+
+@media(max-width: 576px){
+    .subtitle_repre{
+        font-size: 20px;
+    }
+}
